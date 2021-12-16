@@ -1,13 +1,23 @@
-* {
+/* * {
   max-width: 1080px;
   padding: 0 4%;
-  /* text-align: center; */
+  text-align: center;
+} */
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+  text-align: center;
+  height: 60px;
 }
 
 header {
-  /* background-color: blueviolet; */
+  /* background-color: rgb(10, 7, 14); */
   display:flex;
   justify-content:space-between;
+  align-items: center;
+  /* margin: 0 auto; */
 }
 
 .header-logo {
@@ -37,7 +47,13 @@ nav li {
   line-height: 48px;
 }
 
+.mainvisual{
+  background-color: darkgreen;
+}
 
-.mainvisual {
+  .mainvisual img{
+  width: 100%;
+  max-width: 1920px;
   height: 600px;
+  object-fit: cover;
 }
