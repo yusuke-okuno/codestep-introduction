@@ -1,0 +1,43 @@
+* {
+  max-width: 1080px;
+  padding: 0 4%;
+  /* text-align: center; */
+}
+
+header {
+  /* background-color: blueviolet; */
+  display:flex;
+  justify-content:space-between;
+}
+
+.header-logo {
+  /* background-color: black; */
+  color:aliceblue;
+  width: 120px;
+  line-height: 10px;
+  /* padding: 10px 0; */
+}
+
+img {
+  max-width: 100%;
+  line-height: 32px;
+}
+
+.header-list ul {
+  list-style: none;
+  display:flex;
+  /* margin: 0;
+  padding: 0; */
+}
+
+nav li {
+  /* background-color: darkgoldenrod; */
+  margin-left: 30px;
+  text-align: center;
+  line-height: 48px;
+}
+
+
+.mainvisual {
+  height: 600px;
+}
