@@ -25,7 +25,7 @@ header {
   color:aliceblue;
   width: 120px;
   line-height: 10px;
-  /* padding: 10px 0; */
+  padding: 10px 0;
 }
 
 img {
@@ -48,7 +48,7 @@ nav li {
 }
 
 .mainvisual{
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
   margin-bottom: 80px;
 }
 
